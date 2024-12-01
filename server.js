@@ -32,7 +32,7 @@ app.use('/api', orderRoutes); // Order-related routes
 
 
 // Connect to MongoDB using Mongoose
-mongoose.connect('mongodb://localhost:27017/your-db', {
+mongoose.connect('mongodb://localhost:27017/crmgpt', {
   useNewUrlParser: true, // Use the new MongoDB connection string parser
   useUnifiedTopology: true, // Use the new topology engine
 }).then(() => {
