@@ -25,7 +25,7 @@ app.use(cors(corsOptions)); // Enable CORS with the defined options
 
 
 // Define API routes
-app.use('/api', authRoutes); // Authentication routes
+app.use('/api/login', authRoutes); // Authentication routes
 app.use('/api', orderRoutes); // Order-related routes
 // app.use('/api', authMiddleware, orderRoutes); // Uncomment to add authentication middleware for protected routes
 
