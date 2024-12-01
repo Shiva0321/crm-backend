@@ -14,7 +14,7 @@ app.use(express.json());
 
 // CORS options to allow requests from the frontend
 const corsOptions = {
-  origin: 'http://localhost:3000', // Frontend origin
+  origin: 'https://crm-task1.netlify.app', // Frontend origin
   methods: 'GET,POST,PUT,DELETE,PATCH', // Allowed HTTP methods
   credentials: true, // Enable credentials (cookies or headers) for cross-origin requests
 };
